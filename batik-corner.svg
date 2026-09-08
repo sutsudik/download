@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 170">
+  <defs>
+    <path id="bc-leaf" d="M0,0 C -9,-20 -7,-44 0,-60 C 7,-44 9,-20 0,0 Z"/>
+  </defs>
+  <g fill="#C9AD79" fill-opacity="0.13" stroke="#A9812E" stroke-opacity="0.22" stroke-width="1" stroke-linecap="round">
+    <path d="M -10 -10 C 20 6, 34 30, 30 56 C 27 78, 44 92, 68 90" fill="none" stroke-width="1.3"/>
+    <use href="#bc-leaf" transform="translate(26,50) rotate(140) scale(0.8)"/>
+    <use href="#bc-leaf" transform="translate(56,84) rotate(210) scale(0.7)"/>
+    <path d="M 66 88 C 78 82, 90 84, 94 96 C 97 106, 90 114, 80 112" fill="none" stroke-width="1"/>
+    <circle cx="40" cy="30" r="1.4" fill="#A9812E" fill-opacity="0.28" stroke="none"/>
+    <circle cx="60" cy="62" r="1.4" fill="#A9812E" fill-opacity="0.28" stroke="none"/>
+  </g>
+</svg>

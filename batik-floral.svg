@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 560">
+  <defs>
+    <path id="bf-leaf" d="M0,0 C -11,-26 -9,-58 0,-78 C 9,-58 11,-26 0,0 Z"/>
+    <path id="bf-vein" d="M0,-4 L0,-72"/>
+    <path id="bf-petal" d="M0,0 C -8,-13 -8,-28 0,-36 C 8,-28 8,-13 0,0 Z"/>
+  </defs>
+
+  <g fill="#C9AD79" fill-opacity="0.16" stroke="#A9812E" stroke-opacity="0.26" stroke-width="1.1" stroke-linecap="round">
+
+    <!-- main stem -->
+    <path d="M 352 -10 C 330 55, 298 92, 304 150 C 310 212, 258 248, 254 318 C 250 388, 218 428, 222 502"
+          fill="none" stroke-width="1.4"/>
+
+    <!-- leaves along stem -->
+    <use href="#bf-leaf" transform="translate(332,38) rotate(-52) scale(0.9)"/>
+    <use href="#bf-vein" transform="translate(332,38) rotate(-52) scale(0.9)"/>
+
+    <use href="#bf-leaf" transform="translate(300,96) rotate(58)"/>
+    <use href="#bf-vein" transform="translate(300,96) rotate(58)"/>
+
+    <use href="#bf-leaf" transform="translate(306,148) rotate(-68) scale(0.85)"/>
+    <use href="#bf-vein" transform="translate(306,148) rotate(-68) scale(0.85)"/>
+
+    <use href="#bf-leaf" transform="translate(272,224) rotate(40)"/>
+    <use href="#bf-vein" transform="translate(272,224) rotate(40)"/>
+
+    <use href="#bf-leaf" transform="translate(256,296) rotate(-48) scale(0.92)"/>
+    <use href="#bf-vein" transform="translate(256,296) rotate(-48) scale(0.92)"/>
+
+    <use href="#bf-leaf" transform="translate(232,394) rotate(58) scale(0.8)"/>
+    <use href="#bf-vein" transform="translate(232,394) rotate(58) scale(0.8)"/>
+
+    <use href="#bf-leaf" transform="translate(226,458) rotate(-34) scale(0.75)"/>
+    <use href="#bf-vein" transform="translate(226,458) rotate(-34) scale(0.75)"/>
+
+    <use href="#bf-leaf" transform="translate(216,500) rotate(20) scale(0.65)"/>
+    <use href="#bf-vein" transform="translate(216,500) rotate(20) scale(0.65)"/>
+
+    <!-- main bloom -->
+    <g transform="translate(306,78)">
+      <use href="#bf-petal" transform="rotate(0)"/>
+      <use href="#bf-petal" transform="rotate(60)"/>
+      <use href="#bf-petal" transform="rotate(120)"/>
+      <use href="#bf-petal" transform="rotate(180)"/>
+      <use href="#bf-petal" transform="rotate(240)"/>
+      <use href="#bf-petal" transform="rotate(300)"/>
+      <circle r="7" fill="#A9812E" fill-opacity="0.22" stroke="none"/>
+    </g>
+
+    <!-- small bud lower on the stem -->
+    <g transform="translate(262,344) rotate(24) scale(0.55)">
+      <use href="#bf-petal" transform="rotate(0)"/>
+      <use href="#bf-petal" transform="rotate(72)"/>
+      <use href="#bf-petal" transform="rotate(144)"/>
+      <use href="#bf-petal" transform="rotate(216)"/>
+      <use href="#bf-petal" transform="rotate(288)"/>
+      <circle r="6" fill="#A9812E" fill-opacity="0.22" stroke="none"/>
+    </g>
+
+    <!-- tendril curls -->
+    <path d="M 350 -8 C 362 4, 366 18, 356 26 C 348 32, 340 26, 342 18" fill="none" stroke-width="1"/>
+    <path d="M 220 504 C 208 512, 202 524, 210 532 C 216 538, 224 534, 222 526" fill="none" stroke-width="1"/>
+
+    <!-- isen (batik dot accents) -->
+    <circle cx="316" cy="60" r="1.6" fill="#A9812E" fill-opacity="0.3" stroke="none"/>
+    <circle cx="292" cy="66" r="1.6" fill="#A9812E" fill-opacity="0.3" stroke="none"/>
+    <circle cx="270" cy="270" r="1.6" fill="#A9812E" fill-opacity="0.3" stroke="none"/>
+    <circle cx="238" cy="360" r="1.6" fill="#A9812E" fill-opacity="0.3" stroke="none"/>
+  </g>
+</svg>
